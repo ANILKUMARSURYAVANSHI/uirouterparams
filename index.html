@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>New Ui router Example </title>
+	<link rel="stylesheet" href="">
+	<script src="../bower_components/angular/angular.min.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="../bower_components/angular-ui-router/release/angular-ui-router.js" type="text/javascript" charset="utf-8" ></script>
+	<script src="javascripts/application.js" type="text/javascript" charset="utf-8" ></script>
+</head>
+<body ng-app="testui">
+	 <a ui-sref="address" ui-sref-active="active">Address</a>
+    <a ui-sref="contact" ui-sref-active="active">contact</a>
+     <a ui-sref="user" ui-sref-active="active">User</a>
+    <a ui-sref="about" ui-sref-active="active">About</a>
+<h1>HI This is test</h1>
+{{4+5}}
+
+<main ui-view>
+	
+</main>
+	
+</body>
+</html>
